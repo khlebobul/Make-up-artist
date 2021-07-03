@@ -1,0 +1,83 @@
+/** smooth scrolling **/
+
+/* 1. Enable smooth scrolling */
+html {
+	scroll-behavior: smooth;
+}
+
+/* 2. Make nav sticky */
+main > .section-nav {
+	position: sticky;
+	top: 2rem;
+	align-self: start;
+}
+
+/* 3. ScrollSpy active styles (see JS tab for activation) */
+.section-nav .section-nav__item.active > a {
+	color: #829188;
+	font-weight: 500;
+}
+
+/* Sidebar Navigation */
+.section-nav {
+	padding-left: 0;
+	border-left: 1px solid #5F4832;
+}
+
+.section-nav .section-nav__link {
+	text-decoration: none;
+	display: block;
+	padding: .125rem 0;
+	color: #5F4832;
+	transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */
+}
+
+.section-nav .section-nav__link:hover,
+.section-nav .section-nav__link:focus {
+	color: #829188;
+}
+
+/** Poor man's reset **/
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	background: #DDD4D1;
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.section-nav__items {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+    
+}
+.section-nav__item {
+	margin-left: 1rem;
+    font-size: 20px;
+}
+
+
+/** page layout **/
+main {
+	display: grid;
+	grid-template-columns: 1fr 8em;
+	max-width: 100em;
+	width: 90%;
+	margin: 0 auto;
+}
+
+/** enlarge the sections for this demo, so that we have a long scrollable page **/
+section {
+	padding-bottom: 20rem;
+}
+
+.section__title {
+    color:#5F4832;
+}
+/** smooth scrolling **/
+
