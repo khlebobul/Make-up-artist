@@ -923,6 +923,134 @@ main {
 
 /* Обучение end */
 
+/* Цена start*/
+
+
+.price__content {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.price__content:hover .cute-bit {
+  opacity: 0.5;
+}
+
+.price__content:hover .cute-bit:hover {
+  opacity: 1;
+}
+
+.ancatomy {
+  position: relative;
+  text-align: center;
+  font-size: 1vw;
+  color: #5F4832;
+  font-style: italic;
+}
+
+.ancatomy img {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.ancatomy .cute-bit {
+  position: absolute;
+  min-width: 15em;
+  -webkit-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
+
+.ancatomy .cute-bit:hover {
+  min-width: 21em !important;
+}
+
+.ancatomy .cute-bit.grow-left {
+  text-align: left;
+}
+
+.ancatomy .cute-bit.grow-left h2 {
+  padding-right: 1em;
+}
+
+.ancatomy .cute-bit.grow-left h2:after {
+  right: 0;
+  -webkit-transform: translate(50%, 50%);
+  transform: translate(50%, 50%);
+}
+
+.ancatomy .cute-bit.grow-right {
+  text-align: right;
+}
+
+.ancatomy .cute-bit.grow-right h2 {
+  padding-left: 1em;
+}
+
+.ancatomy .cute-bit.grow-right h2:after {
+  left: 0;
+  -webkit-transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
+}
+
+.ancatomy .cute-bit h2 {
+  position: relative;
+  padding: 0 0 0.4em;
+  border-bottom: solid 0.2em;
+  margin: 0 0 0.4em;
+}
+
+.ancatomy .cute-bit h2:after {
+  position: absolute;
+  bottom: -0.1em;
+  content: "";
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background:#5F4832;
+}
+
+.ancatomy .cute-bit p {
+  margin: 0;
+  padding: 0;
+}
+
+.ancatomy .cute-bit.cute-ears {
+  right: 60%;
+  top: 2%;
+  min-width: 12em;
+}
+
+.ancatomy .cute-bit.cute-eyes {
+  right: 62%;
+    top: 47%;
+}
+
+.ancatomy .cute-bit.cute-nose {
+  left: 62%;
+  top: 5%;
+  min-width: 16em;
+}
+
+.ancatomy .cute-bit.cute-paws {
+  left: 60%;
+  bottom: 2%;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Цена end*/
+
 /* contacts start*/
 .contacts {
   padding-bottom: 30px;
