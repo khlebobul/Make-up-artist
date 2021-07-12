@@ -944,7 +944,8 @@ main {
   position: relative;
   text-align: center;
   font-size: 1vw;
-  color: #5F4832;
+  color: #8CA6AF;
+  text-shadow: 0px 4px 4px #FFFFFF;
   font-style: italic;
 }
 
@@ -1007,7 +1008,7 @@ main {
   width: 1em;
   height: 1em;
   border-radius: 50%;
-  background:#5F4832;
+  background:#8CA6AF;
 }
 
 .ancatomy .cute-bit p {
