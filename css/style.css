@@ -375,7 +375,16 @@ main {
   padding: 0;
   text-align: center;
   font-style: italic;
-  color: #9E917A;
+  
+}
+
+.portfolio__desc {
+  font-size: 18px;
+  color: #829188;
+}
+
+.portfolio__desc:hover {
+  color: #988C8C;
 }
 
 /* Портфолио*/
@@ -438,6 +447,7 @@ main {
   font-style: italic;
   color: #9E917A;
 }
+
 /*my works end*/
 
 /* Отзывы styles start */
