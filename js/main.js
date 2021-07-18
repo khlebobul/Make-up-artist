@@ -37,6 +37,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	//const menu = document.querySelector('header__nav');
 	//const menuLinks = document.querySelector('header__menu-item-link');
+	const menuLinks = document.querySelectorAll('.header__menu-item-link');
+
+  menuLinks.forEach(menuLink => {
+    menuLink.addEventListener('click', () => {
+      
+      revealerNav.hide();
+      actionBtn.setAttribute('data-open', false);
+    })
+  })
 
 	actionBtn.addEventListener('click', () => {
 	  if (!revealerNav.isRevealed()) {
@@ -47,6 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		actionBtn.setAttribute('data-open', false);
 	  }
 	});
+	
 
 	//if (window.innerWidth <= 1024) {
 	//	for (let i = 0; i < menuLinks.lenght; i += 1){
