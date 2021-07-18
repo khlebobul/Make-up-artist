@@ -342,32 +342,31 @@ main {
 
 .grid-portfolio {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
-    gap: 0 10px;
+  gap: 0 10px;
   width: 90%;
   margin: 0 auto;
 }
 
 .grid-portfolio .portfolio__block {
-  
   display: inline-block;
   border: solid 4px #829188;
   padding: 5px;
   border-radius: 10px;
-  -webkit-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .grid-portfolio .portfolio__block:hover {
-  border-color: #988C8C;
+  border-color: #988c8c;
 }
 
 .grid-portfolio .portfolio__block .portfolio-item {
   width: 100%;
   border-radius: 5px;
-  -webkit-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .grid-portfolio .portfolio__block .portfolio__desc {
@@ -375,7 +374,6 @@ main {
   padding: 0;
   text-align: center;
   font-style: italic;
-  
 }
 
 .portfolio__desc {
@@ -384,11 +382,10 @@ main {
 }
 
 .portfolio__desc:hover {
-  color: #988C8C;
+  color: #988c8c;
 }
 
 /* Портфолио*/
-
 
 /* myworks start*/
 .myworks__section {
@@ -396,23 +393,22 @@ main {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
-
 
 .grid-container {
   -webkit-columns: 5 200px;
-          columns: 5 200px;
+  columns: 5 200px;
   -webkit-column-gap: 1.5rem;
-          column-gap: 1.5rem;
+  column-gap: 1.5rem;
   width: 90%;
   margin: 0 auto;
 }
@@ -422,22 +418,22 @@ main {
   margin: 0 1.5rem 1.5rem 0;
   display: inline-block;
   width: 100%;
-  border: solid 4px #D7AB8B;
+  border: solid 4px #d7ab8b;
   padding: 5px;
   border-radius: 10px;
-  -webkit-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .grid-container .myworks__img:hover {
-  border-color: #8CA6AF;
+  border-color: #8ca6af;
 }
 
 .grid-container .myworks__img img {
   width: 100%;
   border-radius: 5px;
-  -webkit-transition: all .25s ease-in-out;
-  transition: all .25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }
 
 .grid-container .myworks__img .myworks__desc {
@@ -445,7 +441,7 @@ main {
   padding: 0;
   text-align: center;
   font-style: italic;
-  color: #9E917A;
+  color: #9e917a;
 }
 
 /*my works end*/
@@ -477,7 +473,7 @@ main {
 }
 
 .carousel-wrapper {
-  height: 500px;
+  height: 380px;
   position: relative;
   width: 800px;
   margin: 0 auto;
@@ -549,17 +545,7 @@ main {
 .item-7,
 .item-8,
 .item-9,
-.item-10,
-.item-11,
-.item-12,
-.item-13,
-.item-14,
-.item-15,
-.item-16,
-.item-17,
-.item-18,
-.item-19,
-.item-20 {
+.item-10 {
   background: url(../img/reviews.jpg);
   background-size: cover;
   border-radius: 12px;
@@ -581,17 +567,7 @@ main {
 #item-7:target ~ .item-7,
 #item-8:target ~ .item-8,
 #item-9:target ~ .item-9,
-#item-10:target ~ .item-10,
-#item-11:target ~ .item-11,
-#item-12:target ~ .item-12,
-#item-13:target ~ .item-13,
-#item-14:target ~ .item-14,
-#item-15:target ~ .item-15,
-#item-16:target ~ .item-16,
-#item-17:target ~ .item-17,
-#item-18:target ~ .item-18,
-#item-19:target ~ .item-19,
-#item-20:target ~ .item-20 {
+#item-10:target ~ .item-10 {
   z-index: 2;
   opacity: 1;
 }
@@ -913,7 +889,6 @@ main {
 
 /* Цена start*/
 
-
 .price__content {
   padding: 0;
   margin: 0;
@@ -932,8 +907,8 @@ main {
   position: relative;
   text-align: center;
   font-size: 1vw;
-  color: #8CA6AF;
-  text-shadow: 0px 4px 4px #FFFFFF;
+  color: #8ca6af;
+  text-shadow: 0px 4px 4px #ffffff;
   font-style: italic;
 }
 
@@ -996,7 +971,7 @@ main {
   width: 1em;
   height: 1em;
   border-radius: 50%;
-  background:#8CA6AF;
+  background: #8ca6af;
 }
 
 .ancatomy .cute-bit p {
@@ -1012,7 +987,7 @@ main {
 
 .ancatomy .cute-bit.cute-eyes {
   right: 62%;
-    top: 47%;
+  top: 47%;
 }
 
 .ancatomy .cute-bit.cute-nose {
