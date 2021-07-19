@@ -115,7 +115,7 @@
 
 html,
 body {
-  background: #d7ab8b;
+  background: #EEEAEB;
   font-family: Montserrat, sans-serif;
   scroll-behavior: smooth;
 }
@@ -135,6 +135,7 @@ body {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   color: #5f4832;
+  padding-bottom: 30px;
 }
 
 .tabs__desc {
@@ -211,11 +212,16 @@ main {
 .price__section {
   color: #fbf2e1;
   padding-top: 20px;
+  background: url(../img/fon__course123.jpeg);
+  background-size: cover;
+  border-radius: 12px;
+  padding-bottom: 30px;
+
 }
 
 .promo {
   width: 250px;
-  background: #988c8c;
+  background-color: #8CA6AF;
   margin: 0 auto;
 }
 
@@ -235,6 +241,8 @@ main {
   display: block;
   text-align: center;
   font-size: 25px;
+
+  
 }
 
 .promo .price {
