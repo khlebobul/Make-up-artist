@@ -138,7 +138,7 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  color: #343233;
+  color: #7C635F;
   padding-bottom: 30px;
 }
 
@@ -181,7 +181,7 @@ body {
 
 .tabs input[type="radio"]:checked + label {
   background: #F4BAB6;
-  color: #343233;
+  color: #7C635F;
 }
 
 .tabs input[type="radio"]:checked + label + .tab {
@@ -477,7 +477,7 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
-  border: 2px solid #3C3623;
+  border: 2px solid #7C635F;
   border-radius: 32% 58% 69% 43% / 48% 32% 59% 55%;
   transition: 0.5s;
   animation: animate 6s linear infinite;
@@ -504,7 +504,7 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
-  border: 2px solid #3C3623;
+  border: 2px solid #7C635F;
   border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
   transition: 0.5s;
   animation: animate 4s linear infinite;
@@ -531,7 +531,7 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
-  border: 2px solid #3C3623;
+  border: 2px solid #7C635F;
   border-radius: 31% 45% 74% 35% / 38% 56% 51% 87%;
   transition: 0.5s;
   animation: animate2 10s linear infinite;
@@ -555,7 +555,7 @@ main {
 .contacts__content {
   position: relative;
   padding: 40px 60px;
-  color: #3C3623;
+  color: #7C635F;
   text-align: center;
   transition: 0.5s;
 
@@ -566,10 +566,10 @@ main {
   position: relative;
   display: inline-block;
   margin-top: 10px;
-  border: 2px solid #3C3623;
+  border: 2px solid #7C635F;
   padding: 6px 8px;
   text-decoration: none;
-  color: #3C3623;
+  color: #7C635F;
   font-weight: 600;
   font-size: 15px;
   border-radius: 73% 27% 44% 56% / 49% 44% 56% 51%;
