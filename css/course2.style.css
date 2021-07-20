@@ -96,9 +96,13 @@
   width: 400px;
 }
 
+.logo__desc {
+  color: #896F6A;
+}
+
 .header__logo-link {
   text-decoration: none;
-  color: #897f7d;
+  color: #896F6A;
 }
 
 .logo__desc {
@@ -115,21 +119,18 @@
 
 html,
 body {
-  background: #eeeaeb;
+  background: #FAF0E6;
   font-family: Montserrat, sans-serif;
   scroll-behavior: smooth;
 }
 
 .section__title {
-  color: #897f7d;
+  color: #896F6A;
 }
 
 /** smooth scrolling end **/
 
 /* Программа курса start */
-.logo__desc {
-  color: #897f7d;
-}
 
 .tabs {
   display: -webkit-box;
@@ -137,7 +138,7 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  color: #5f4832;
+  color: #343233;
   padding-bottom: 30px;
 }
 
@@ -154,7 +155,7 @@ body {
   padding: 1rem 2rem;
   margin-right: 0.2rem;
   cursor: pointer;
-  background: #dececf;
+  background: #FBFBFB;
   color: #988c8c;
   font-weight: bold;
   -webkit-transition: background ease 0.2s;
@@ -171,7 +172,7 @@ body {
   width: 100%;
   display: none;
   padding: 1rem;
-  background: #efdddd;
+  background: #F4BAB6;
 }
 
 .tabs input[type="radio"] {
@@ -179,8 +180,8 @@ body {
 }
 
 .tabs input[type="radio"]:checked + label {
-  background: #efdddd;
-  color: #5f4832;
+  background: #F4BAB6;
+  color: #343233;
 }
 
 .tabs input[type="radio"]:checked + label + .tab {
@@ -213,9 +214,9 @@ main {
 
 /* price start */
 .price__section {
-  color: #928482;
+  color: #846B5F;
   padding-top: 20px;
-  background: url(../img/fon__course1.jpeg);
+  background: url(../img/fon__course2.jpeg);
   background-size: cover;
   
   padding-bottom: 30px;
@@ -223,13 +224,13 @@ main {
 
 .promo {
   width: 250px;
-  background-color: #dececf;
+  background-color: #FFE88A;
   margin: 0 auto;
 }
 
 .price {
-  background-color: #fbf2e1;
-  color: #928482;
+  background-color: #F4BBB4;
+  color: #846B5F;
 }
 
 .deal {
@@ -237,7 +238,7 @@ main {
 }
 .contact-link {
   text-decoration: none;
-  color: #928482;
+  color: #846B5F;
 }
 .price__title {
   display: block;
@@ -273,7 +274,7 @@ main {
   border: none;
   font-size: 20px;
   border-radius: 20px;
-  background-color: #fbf2e1;
+  background-color: #F4BBB4;
   color: #5f4832;
   padding: 10px 37px;
   margin: 10px 35px 20px 35px;
@@ -286,7 +287,7 @@ main {
 
 .study__desc {
   margin: 0 auto;
-  color: #897f7d;
+  color: #846B5F;
   font-style: italic;
   font-size: 20px;
 }
@@ -296,7 +297,7 @@ main {
   width: 100%;
   max-width: 20em;
   overflow: hidden;
-  background-color: #eeeaeb;
+  background-color: #FAF0E6;
 }
 
 .cat::before {
@@ -457,7 +458,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #eeeaeb;
+  background: #FAF0E6;
 }
 
 .square {
@@ -476,7 +477,7 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
-  border: 2px solid #897f7d;
+  border: 2px solid #3C3623;
   border-radius: 32% 58% 69% 43% / 48% 32% 59% 55%;
   transition: 0.5s;
   animation: animate 6s linear infinite;
@@ -484,17 +485,17 @@ main {
 
 .phone:hover span:nth-child(1) {
   border: none;
-  background: #d8d1d0;
+  background: #FFE88A;
 }
 
 .instagram:hover span:nth-child(1) {
   border: none;
-  background: #efdddd;
+  background: #F6B9B4;
 }
 
 .vk:hover span:nth-child(1) {
   border: none;
-  background: #dececf;
+  background: #FEFDF9;
 }
 
 .square span:nth-child(2) {
@@ -503,7 +504,7 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
-  border: 2px solid #897f7d;
+  border: 2px solid #3C3623;
   border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
   transition: 0.5s;
   animation: animate 4s linear infinite;
@@ -511,17 +512,17 @@ main {
 
 .phone:hover span:nth-child(2) {
   border: none;
-  background: #d8d1d0;
+  background: #FFE88A;
 }
 
 .instagram:hover span:nth-child(2) {
   border: none;
-  background: #efdddd;
+  background: #F6B9B4;
 }
 
 .vk:hover span:nth-child(2) {
   border: none;
-  background: #dececf;
+  background: #FEFDF9;
 }
 
 .square span:nth-child(3) {
@@ -530,7 +531,7 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
-  border: 2px solid #897f7d;
+  border: 2px solid #3C3623;
   border-radius: 31% 45% 74% 35% / 38% 56% 51% 87%;
   transition: 0.5s;
   animation: animate2 10s linear infinite;
@@ -538,23 +539,23 @@ main {
 
 .phone:hover span:nth-child(3) {
   border: none;
-  background: #d8d1d0;
+  background: #FFE88A;
 }
 
 .instagram:hover span:nth-child(3) {
   border: none;
-  background: #efdddd;
+  background: #F6B9B4;
 }
 
 .vk:hover span:nth-child(3) {
   border: none;
-  background: #dececf;
+  background: #FEFDF9;
 }
 
 .contacts__content {
   position: relative;
   padding: 40px 60px;
-  color: #897f7d;
+  color: #3C3623;
   text-align: center;
   transition: 0.5s;
 
@@ -565,19 +566,19 @@ main {
   position: relative;
   display: inline-block;
   margin-top: 10px;
-  border: 2px solid #897f7d;
+  border: 2px solid #3C3623;
   padding: 6px 8px;
   text-decoration: none;
-  color: #897f7d;
+  color: #3C3623;
   font-weight: 600;
   font-size: 15px;
   border-radius: 73% 27% 44% 56% / 49% 44% 56% 51%;
 }
 
 .contacts__content .contacts__link:hover {
-  background: #cbb1b1;
-  color: #eeeaeb;
-  border: 2px solid #cbb1b1;
+  background: #FCD9B6;
+  color: #7C635F;
+  border: 2px solid #FCD9B6;
 }
 
 @keyframes animate {
@@ -607,7 +608,7 @@ main {
   border: none;
   font-size: 20px;
   border-radius: 20px;
-  background-color: #b6acaa;
+  background-color: #F3BAB3;
 
   padding: 10px 37px;
   margin: 10px 35px 20px 35px;
@@ -615,7 +616,7 @@ main {
 
 .back-link {
   text-decoration: none;
-  color: #eeeaeb;
+  color: #7B615C;
   font-style: italic;
 }
 
@@ -626,7 +627,7 @@ main {
 
 /* Footer styles end */
 .footer {
-  background: #efdddd;
+  background: #FFE88A;
 }
 
 .aboutme {
