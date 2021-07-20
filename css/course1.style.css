@@ -98,7 +98,7 @@
 
 .header__logo-link {
   text-decoration: none;
-  color: #fbf2e1;
+  color: #897F7D;
 }
 
 .logo__desc {
@@ -121,7 +121,7 @@ body {
 }
 
 .section__title {
-  color: #fbf2e1;
+  color: #897F7D;
 }
 
 /** smooth scrolling end **/
@@ -151,8 +151,8 @@ body {
   padding: 1rem 2rem;
   margin-right: 0.2rem;
   cursor: pointer;
-  background: #8ca6af;
-  color: #fbf2e1;
+  background: #DECECF;
+  color: #988C8C;
   font-weight: bold;
   -webkit-transition: background ease 0.2s;
   transition: background ease 0.2s;
@@ -168,7 +168,7 @@ body {
   width: 100%;
   display: none;
   padding: 1rem;
-  background: #dabc86;
+  background: #EFDDDD;
 }
 
 .tabs input[type="radio"] {
@@ -176,7 +176,7 @@ body {
 }
 
 .tabs input[type="radio"]:checked + label {
-  background: #dabc86;
+  background: #EFDDDD;
   color: #5f4832;
 }
 
@@ -210,7 +210,7 @@ main {
 
 /* price start */
 .price__section {
-  color: #fbf2e1;
+  color: #928482;
   padding-top: 20px;
   background: url(../img/fon__course123.jpeg);
   background-size: cover;
@@ -221,13 +221,13 @@ main {
 
 .promo {
   width: 250px;
-  background-color: #8CA6AF;
+  background-color: #DECECF;
   margin: 0 auto;
 }
 
 .price {
-  background-color: #fbf2e1;
-  color: #5f4832;
+  background-color: #FBF2E1;
+  color: #928482;
 }
 
 .deal {
@@ -235,7 +235,7 @@ main {
 }
  .contact-link{
    text-decoration: none;
-   color: #5f4832;
+   color: #928482;
  }
 .price__title {
   display: block;
@@ -286,7 +286,7 @@ main {
 
 .study__desc {
   margin: 0 auto;
-  color: #fbf2e1;
+  color: #897F7D;
   font-style: italic;
   font-size: 20px;
 }
@@ -296,7 +296,7 @@ main {
   width: 100%;
   max-width: 20em;
   overflow: hidden;
-  background-color: #d7ab8b;
+  background-color: #EEEAEB;
 }
 
 .cat::before {
@@ -457,7 +457,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #d7ab8b;
+  background: #EEEAEB;
 }
 
 .square {
@@ -476,7 +476,7 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
-  border: 2px solid #fbf2e1;
+  border: 2px solid #897F7D;
   border-radius: 32% 58% 69% 43% / 48% 32% 59% 55%;
   transition: 0.5s;
   animation: animate 6s linear infinite;
@@ -484,17 +484,17 @@ main {
 
 .phone:hover span:nth-child(1) {
   border: none;
-  background: #8ca6af;
+  background: #D8D1D0;
 }
 
 .instagram:hover span:nth-child(1) {
   border: none;
-  background: #988c8c;
+  background: #EFDDDD;
 }
 
 .vk:hover span:nth-child(1) {
   border: none;
-  background: #829188;
+  background: #DECECF;
 }
 
 .square span:nth-child(2) {
@@ -503,7 +503,7 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
-  border: 2px solid #fbf2e1;
+  border: 2px solid #897F7D;
   border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
   transition: 0.5s;
   animation: animate 4s linear infinite;
@@ -511,17 +511,17 @@ main {
 
 .phone:hover span:nth-child(2) {
   border: none;
-  background: #8ca6af;
+  background: #D8D1D0;
 }
 
 .instagram:hover span:nth-child(2) {
   border: none;
-  background: #988c8c;
+  background: #EFDDDD;
 }
 
 .vk:hover span:nth-child(2) {
   border: none;
-  background: #829188;
+  background: #DECECF;
 }
 
 .square span:nth-child(3) {
@@ -530,7 +530,7 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
-  border: 2px solid #fbf2e1;
+  border: 2px solid #897F7D;
   border-radius: 31% 45% 74% 35% / 38% 56% 51% 87%;
   transition: 0.5s;
   animation: animate2 10s linear infinite;
@@ -538,23 +538,23 @@ main {
 
 .phone:hover span:nth-child(3) {
   border: none;
-  background: #8ca6af;
+  background: #D8D1D0;
 }
 
 .instagram:hover span:nth-child(3) {
   border: none;
-  background: #988c8c;
+  background: #EFDDDD;
 }
 
 .vk:hover span:nth-child(3) {
   border: none;
-  background: #829188;
+  background: #DECECF;
 }
 
 .contacts__content {
   position: relative;
   padding: 40px 60px;
-  color: #fbf2e1;
+  color: #897F7D;
   text-align: center;
   transition: 0.5s;
 
@@ -565,18 +565,19 @@ main {
   position: relative;
   display: inline-block;
   margin-top: 10px;
-  border: 2px solid #fbf2e1;
+  border: 2px solid #897F7D;
   padding: 6px 8px;
   text-decoration: none;
-  color: #fbf2e1;
+  color: #897F7D;
   font-weight: 600;
   font-size: 15px;
   border-radius: 73% 27% 44% 56% / 49% 44% 56% 51%;
 }
 
 .contacts__content .contacts__link:hover {
-  background: #fbf2e1;
-  color: #5f4832;
+  background: #CBB1B1;
+  color: #EEEAEB;
+  border: 2px solid #CBB1B1;
 }
 
 @keyframes animate {
@@ -606,15 +607,15 @@ main {
   border: none;
   font-size: 20px;
   border-radius: 20px;
-  background-color: #fbf2e1;
-  color: #5f4832;
+  background-color: #B6ACAA;
+  
   padding: 10px 37px;
   margin: 10px 35px 20px 35px;
 }
 
 .back-link {
   text-decoration: none;
-  color: #5f4832;
+  color: #EEEAEB;
   font-style: italic;
 }
 
@@ -625,12 +626,12 @@ main {
 
 /* Footer styles end */
 .footer {
-  background: #dabc86;
+  background: #EFDDDD;
 }
 
 .aboutme {
   padding-top: 15px;
-  color: #5f4832;
+  color: #897F7D;
   font-size: 15px;
   font-style: italic;
 }
