@@ -97,12 +97,12 @@
 }
 
 .logo__desc {
-  color: #896F6A;
+  color: #896f6a;
 }
 
 .header__logo-link {
   text-decoration: none;
-  color: #896F6A;
+  color: #896f6a;
 }
 
 .logo__desc {
@@ -119,13 +119,13 @@
 
 html,
 body {
-  background: #FAF0E6;
+  background: #faf0e6;
   font-family: Montserrat, sans-serif;
   scroll-behavior: smooth;
 }
 
 .section__title {
-  color: #896F6A;
+  color: #896f6a;
 }
 
 /** smooth scrolling end **/
@@ -138,7 +138,7 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  color: #7C635F;
+  color: #7c635f;
   padding-bottom: 30px;
 }
 
@@ -155,7 +155,7 @@ body {
   padding: 1rem 2rem;
   margin-right: 0.2rem;
   cursor: pointer;
-  background: #FBFBFB;
+  background: #fbfbfb;
   color: #988c8c;
   font-weight: bold;
   -webkit-transition: background ease 0.2s;
@@ -172,7 +172,7 @@ body {
   width: 100%;
   display: none;
   padding: 1rem;
-  background: #F4BAB6;
+  background: #f4bab6;
 }
 
 .tabs input[type="radio"] {
@@ -180,8 +180,8 @@ body {
 }
 
 .tabs input[type="radio"]:checked + label {
-  background: #F4BAB6;
-  color: #7C635F;
+  background: #f4bab6;
+  color: #7c635f;
 }
 
 .tabs input[type="radio"]:checked + label + .tab {
@@ -214,23 +214,23 @@ main {
 
 /* price start */
 .price__section {
-  color: #846B5F;
+  color: #846b5f;
   padding-top: 20px;
   background: url(../img/fon__course2.jpeg);
   background-size: cover;
-  
+
   padding-bottom: 30px;
 }
 
 .promo {
   width: 250px;
-  background-color: #FFE88A;
+  background-color: #ffe88a;
   margin: 0 auto;
 }
 
 .price {
-  background-color: #F4BBB4;
-  color: #846B5F;
+  background-color: #f4bbb4;
+  color: #846b5f;
 }
 
 .deal {
@@ -238,7 +238,7 @@ main {
 }
 .contact-link {
   text-decoration: none;
-  color: #846B5F;
+  color: #846b5f;
 }
 .price__title {
   display: block;
@@ -274,7 +274,7 @@ main {
   border: none;
   font-size: 20px;
   border-radius: 20px;
-  background-color: #F4BBB4;
+  background-color: #f4bbb4;
   color: #5f4832;
   padding: 10px 37px;
   margin: 10px 35px 20px 35px;
@@ -287,7 +287,7 @@ main {
 
 .study__desc {
   margin: 0 auto;
-  color: #846B5F;
+  color: #846b5f;
   font-style: italic;
   font-size: 20px;
 }
@@ -297,7 +297,7 @@ main {
   width: 100%;
   max-width: 20em;
   overflow: hidden;
-  background-color: #FAF0E6;
+  background-color: #faf0e6;
 }
 
 .cat::before {
@@ -458,7 +458,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #FAF0E6;
+  background: #faf0e6;
 }
 
 .square {
@@ -477,7 +477,7 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
-  border: 2px solid #7C635F;
+  border: 2px solid #7c635f;
   border-radius: 32% 58% 69% 43% / 48% 32% 59% 55%;
   transition: 0.5s;
   animation: animate 6s linear infinite;
@@ -485,17 +485,17 @@ main {
 
 .phone:hover span:nth-child(1) {
   border: none;
-  background: #FFE88A;
+  background: #ffe88a;
 }
 
 .instagram:hover span:nth-child(1) {
   border: none;
-  background: #F6B9B4;
+  background: #f6b9b4;
 }
 
 .vk:hover span:nth-child(1) {
   border: none;
-  background: #FEFDF9;
+  background: #fefdf9;
 }
 
 .square span:nth-child(2) {
@@ -504,7 +504,7 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
-  border: 2px solid #7C635F;
+  border: 2px solid #7c635f;
   border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
   transition: 0.5s;
   animation: animate 4s linear infinite;
@@ -512,17 +512,17 @@ main {
 
 .phone:hover span:nth-child(2) {
   border: none;
-  background: #FFE88A;
+  background: #ffe88a;
 }
 
 .instagram:hover span:nth-child(2) {
   border: none;
-  background: #F6B9B4;
+  background: #f6b9b4;
 }
 
 .vk:hover span:nth-child(2) {
   border: none;
-  background: #FEFDF9;
+  background: #fefdf9;
 }
 
 .square span:nth-child(3) {
@@ -531,7 +531,7 @@ main {
   left: 0;
   width: 100%;
   height: 100%;
-  border: 2px solid #7C635F;
+  border: 2px solid #7c635f;
   border-radius: 31% 45% 74% 35% / 38% 56% 51% 87%;
   transition: 0.5s;
   animation: animate2 10s linear infinite;
@@ -539,23 +539,23 @@ main {
 
 .phone:hover span:nth-child(3) {
   border: none;
-  background: #FFE88A;
+  background: #ffe88a;
 }
 
 .instagram:hover span:nth-child(3) {
   border: none;
-  background: #F6B9B4;
+  background: #f6b9b4;
 }
 
 .vk:hover span:nth-child(3) {
   border: none;
-  background: #FEFDF9;
+  background: #fefdf9;
 }
 
 .contacts__content {
   position: relative;
   padding: 40px 60px;
-  color: #7C635F;
+  color: #7c635f;
   text-align: center;
   transition: 0.5s;
 
@@ -566,19 +566,19 @@ main {
   position: relative;
   display: inline-block;
   margin-top: 10px;
-  border: 2px solid #7C635F;
+  border: 2px solid #7c635f;
   padding: 6px 8px;
   text-decoration: none;
-  color: #7C635F;
+  color: #7c635f;
   font-weight: 600;
   font-size: 15px;
   border-radius: 73% 27% 44% 56% / 49% 44% 56% 51%;
 }
 
 .contacts__content .contacts__link:hover {
-  background: #FCD9B6;
-  color: #7C635F;
-  border: 2px solid #FCD9B6;
+  background: #fcd9b6;
+  color: #7c635f;
+  border: 2px solid #fcd9b6;
 }
 
 @keyframes animate {
@@ -608,7 +608,7 @@ main {
   border: none;
   font-size: 20px;
   border-radius: 20px;
-  background-color: #F3BAB3;
+  background-color: #f3bab3;
 
   padding: 10px 37px;
   margin: 10px 35px 20px 35px;
@@ -616,7 +616,7 @@ main {
 
 .back-link {
   text-decoration: none;
-  color: #7B615C;
+  color: #7b615c;
   font-style: italic;
 }
 
@@ -627,7 +627,7 @@ main {
 
 /* Footer styles end */
 .footer {
-  background: #FFE88A;
+  background: #ffe88a;
 }
 
 .aboutme {
@@ -647,3 +647,132 @@ main {
   padding-bottom: 20px;
 }
 /* Footer styles end */
+
+/* Адаптация под устройства */
+.logo {
+  padding-left: 20px;
+}
+.logo__desc {
+  padding-left: 20px;
+}
+.section__title {
+  padding-left: 20px;
+}
+@media (max-width: 1067px) {
+  /* contacts start*/
+
+  .square {
+    width: 200px;
+    height: 200px;
+  }
+
+  .contacts__content {
+    padding: 15px 20px;
+  }
+
+  .tabs__desc {
+    font-size: 18px;
+    line-height: 23px;
+    padding: 10px 20px;
+  }
+  /* contacts end*/
+}
+
+@media (max-width: 986px) {
+  /* Программа курса start */
+
+  .tabs label {
+    padding: 10px 10px;
+  }
+
+  /* Программа курса end */
+}
+
+@media (max-width: 858px) {
+  /* Программа курса start */
+
+  .tabs label {
+    text-align: center;
+    width: 300px;
+  }
+
+  .tabs {
+    flex-direction: column;
+    align-content: flex-start;
+  }
+  .logo__desc {
+    
+    font-size: 20px;
+    width: 600px;
+    padding-bottom: 20px;
+}
+.square__content {
+  flex-wrap: wrap;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+  /* Программа курса end */
+}
+
+@media (max-width: 775px) {
+  /* Программа курса start */
+  .logo {
+    font-size: 27px;
+  }
+  
+  /* Программа курса end */
+}
+
+@media (max-width: 627px) {
+  /* Программа курса start */
+  .logo__desc {
+    width: 400px;
+  }
+  
+  /* Программа курса end */
+}
+
+@media (max-width: 435px) {
+  /* Программа курса start */
+  .logo__desc {
+    width: 300px;
+    font-size: 17px;
+    margin: 0;
+  }
+  
+  .logo {
+    width: 300px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    margin: 0;
+}
+
+.tabs__desc {
+  font-size: 15px;
+  line-height: 18px;
+  padding: 5px 8px;
+}
+
+.header__logo {
+  width: 300px;
+}
+
+.section__title {
+  font-size: 23px;
+}
+.study__desc {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.label {
+  font-size: 18px;
+}
+
+.back-link {
+  font-size: 16px;
+}
+}

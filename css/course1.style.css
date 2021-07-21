@@ -646,3 +646,132 @@ main {
   padding-bottom: 20px;
 }
 /* Footer styles end */
+
+/* Адаптация под устройства */
+.logo {
+  padding-left: 20px;
+}
+.logo__desc {
+  padding-left: 20px;
+}
+.section__title {
+  padding-left: 20px;
+}
+@media (max-width: 1067px) {
+  /* contacts start*/
+
+  .square {
+    width: 200px;
+    height: 200px;
+  }
+
+  .contacts__content {
+    padding: 15px 20px;
+  }
+
+  .tabs__desc {
+    font-size: 18px;
+    line-height: 23px;
+    padding: 10px 20px;
+  }
+  /* contacts end*/
+}
+
+@media (max-width: 986px) {
+  /* Программа курса start */
+
+  .tabs label {
+    padding: 10px 10px;
+  }
+
+  /* Программа курса end */
+}
+
+@media (max-width: 858px) {
+  /* Программа курса start */
+
+  .tabs label {
+    text-align: center;
+    width: 300px;
+  }
+
+  .tabs {
+    flex-direction: column;
+    align-content: flex-start;
+  }
+  .logo__desc {
+    
+    font-size: 20px;
+    width: 600px;
+    padding-bottom: 20px;
+}
+.square__content {
+  flex-wrap: wrap;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+  /* Программа курса end */
+}
+
+@media (max-width: 775px) {
+  /* Программа курса start */
+  .logo {
+    font-size: 27px;
+  }
+  
+  /* Программа курса end */
+}
+
+@media (max-width: 627px) {
+  /* Программа курса start */
+  .logo__desc {
+    width: 400px;
+  }
+  
+  /* Программа курса end */
+}
+
+@media (max-width: 435px) {
+  /* Программа курса start */
+  .logo__desc {
+    width: 300px;
+    font-size: 17px;
+    margin: 0;
+  }
+  
+  .logo {
+    width: 300px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    margin: 0;
+}
+
+.tabs__desc {
+  font-size: 15px;
+  line-height: 18px;
+  padding: 5px 8px;
+}
+
+.header__logo {
+  width: 300px;
+}
+
+.section__title {
+  font-size: 23px;
+}
+.study__desc {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.label {
+  font-size: 18px;
+}
+
+.back-link {
+  font-size: 16px;
+}
+}
