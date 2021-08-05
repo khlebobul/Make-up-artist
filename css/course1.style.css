@@ -335,6 +335,20 @@ main {
   background-image: url("../img/cat.png");
 }
 
+.shopping-link {
+  color: #D9A792;
+  text-decoration: none;
+}
+
+.shopping__desc {
+  color: #9E917A;
+  padding: 15px;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+
 .cat__head::before {
   top: 0;
   right: 0;
