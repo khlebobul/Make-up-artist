@@ -900,6 +900,9 @@ main {
 .price__content:hover .cute-bit:hover {
   opacity: 1;
 }
+.price__pic {
+  border-radius: 10px;
+}
 
 .ancatomy {
   position: relative;
@@ -978,25 +981,19 @@ main {
 }
 
 .ancatomy .cute-bit.cute-ears {
-  right: 60%;
-  top: 2%;
+  right: 55%;
+  top: 5%;
   min-width: 12em;
 }
 
 .ancatomy .cute-bit.cute-eyes {
-  right: 62%;
-  top: 47%;
-}
-
-.ancatomy .cute-bit.cute-nose {
-  left: 62%;
-  top: 5%;
-  min-width: 16em;
+  right: 59%;
+  top: 40%;
 }
 
 .ancatomy .cute-bit.cute-paws {
-  left: 60%;
-  bottom: 2%;
+  left: 58%;
+  bottom: 20%;
 }
 
 .sr-only {
@@ -1167,24 +1164,3 @@ main {
 }
 /* contacts end*/
 
-/* Footer styles end */
-.footer {
-  background: #829188;
-}
-
-.aboutme {
-  padding-top: 15px;
-  color: #ddd4d1;
-  font-size: 15px;
-  font-style: italic;
-}
-
-.footer__item {
-  text-align: center;
-}
-
-.footer-img {
-  width: 30px;
-  padding-bottom: 20px;
-}
-/* Footer styles end */

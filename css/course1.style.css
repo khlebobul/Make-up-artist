@@ -638,29 +638,6 @@ main {
   padding-bottom: 20px;
 }
 
-/* Footer styles end */
-.footer {
-  background: #efdddd;
-}
-
-.aboutme {
-  padding-top: 15px;
-  padding-bottom: 10px;
-  color: #897f7d;
-  font-size: 15px;
-  font-style: italic;
-}
-
-.footer__item {
-  text-align: center;
-}
-
-.footer-img {
-  width: 30px;
-  padding-bottom: 20px;
-}
-/* Footer styles end */
-
 /* Адаптация под устройства */
 .logo {
   padding-left: 20px;
