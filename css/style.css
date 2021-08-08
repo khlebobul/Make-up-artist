@@ -968,8 +968,6 @@ main {
   margin: 0 0 0.4em;
 }
 
-
-
 .ancatomy .cute-bit p {
   margin: 0;
   padding: 0;
@@ -983,11 +981,13 @@ main {
 .ancatomy .cute-bit.cute-eyes {
   right: 50%;
     top: 70%;
+    width: 400px;
 }
 
 .ancatomy .cute-bit.cute-paws {
   left: 58%;
   bottom: 35%;
+  width: 350px;
 }
 
 .sr-only {
