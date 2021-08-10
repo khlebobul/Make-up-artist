@@ -262,6 +262,7 @@ main {
     margin: 0;
   }
 
+
   .header__menu > .header__menu-item {
     font-size: 10vh;
   }
@@ -281,6 +282,10 @@ main {
   .header__menu-item a:hover {
     font-style: italic;
   }
+}
+
+.header__pic {
+  width: 300px;
 }
 
 /* О нас styles start */
