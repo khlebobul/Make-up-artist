@@ -262,7 +262,6 @@ main {
     margin: 0;
   }
 
-
   .header__menu > .header__menu-item {
     font-size: 10vh;
   }
@@ -286,6 +285,52 @@ main {
 
 .header__pic {
   width: 300px;
+}
+.logo__quote {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 50px 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 30px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+blockquote {
+  margin: 0;
+  color: #231e28;
+  padding: 30px 30px 30px 60px;
+  border-left: 8px solid #D7AB8B;
+  position: relative;
+  background: #DDD4D1;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+blockquote:before {
+  content: "\201C";
+  font-family: Arial;
+  color: #D7AB8B;
+  font-size: 70px;
+  position: absolute;
+  left: 15px;
+  top: 5px;
+}
+blockquote p {
+  font-style: italic;
+  font-size: 24px;
+  margin-top: 0;
+}
+blockquote cite {
+  font-style: italic;
+  font-size: 18px;
+  margin-top: 20px;
+  
+}
+
+.cite__wiki {
+  text-decoration: none;
+  color: #988C8C;
 }
 
 /* О нас styles start */
@@ -423,14 +468,13 @@ main {
   margin: 0 1.5rem 1.5rem 0;
   display: inline-block;
   width: 100%;
-  
-  background-color: #FBF2E1;
+
+  background-color: #fbf2e1;
   padding: 5px;
   border-radius: 10px;
   -webkit-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
-
 
 .grid-container .myworks__img img {
   width: 100%;
@@ -444,7 +488,7 @@ main {
   padding: 0;
   text-align: center;
   font-style: italic;
-  color: #5F4832;
+  color: #5f4832;
 }
 
 /*my works end*/
@@ -932,16 +976,16 @@ main {
 .ancatomy .cute-bit:hover {
   min-width: 21em !important;
 }
-.price1{
-  color:#dabc86 ;
+.price1 {
+  color: #dabc86;
 }
 
-.price2{
-  color:#8CA6AF ;
+.price2 {
+  color: #8ca6af;
 }
 
-.price3{
-  color:#D7AB8B ;
+.price3 {
+  color: #d7ab8b;
 }
 
 .ancatomy .cute-bit.grow-left h2 {
@@ -954,10 +998,8 @@ main {
   transform: translate(50%, 50%);
 }
 
-
 .ancatomy .cute-bit.grow-right h2 {
   padding-left: 1em;
-  
 }
 
 .ancatomy .cute-bit.grow-right h2:after {
@@ -985,8 +1027,8 @@ main {
 
 .ancatomy .cute-bit.cute-eyes {
   right: 50%;
-    top: 70%;
-    width: 400px;
+  top: 70%;
+  width: 400px;
 }
 
 .ancatomy .cute-bit.cute-paws {
@@ -1162,4 +1204,3 @@ main {
   margin-bottom: 40px;
 }
 /* contacts end*/
-
