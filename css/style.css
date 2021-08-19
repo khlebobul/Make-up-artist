@@ -325,13 +325,11 @@ blockquote cite {
   font-style: italic;
   font-size: 18px;
   margin-top: 20px;
+  color: #988C8C;
   
 }
 
-.cite__wiki {
-  text-decoration: none;
-  color: #988C8C;
-}
+
 
 /* О нас styles start */
 .about {
