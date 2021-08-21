@@ -352,7 +352,7 @@ blockquote cite {
   display: grid;
   -ms-grid-columns: 1fr 50px 1fr;
   grid-template-columns: repeat(2, 1fr);
-  gap: 0 50px;
+  gap: 0 20px;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -362,13 +362,13 @@ blockquote cite {
   text-align: justify;
   margin: 0 auto;
   max-width: 400px;
-  font-size: 18px;
+  font-size: 23px;
   line-height: 25px;
   font-style: italic;
 }
 
 .about-pic {
-  max-width: 350px;
+  max-width: 400px;
   display: block;
   margin: 0 auto;
   border-radius: 12px;
@@ -378,7 +378,7 @@ blockquote cite {
   text-align: center;
   width: 100%;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 27px;
   line-height: 42px;
   top: 0;
   left: 0;
@@ -398,6 +398,7 @@ blockquote cite {
   gap: 0 10px;
   width: 90%;
   margin: 0 auto;
+
 }
 
 .grid-portfolio .portfolio__block {
@@ -407,6 +408,8 @@ blockquote cite {
   border-radius: 10px;
   -webkit-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
+  margin: 0 auto;
+  
 }
 
 .grid-portfolio .portfolio__block:hover {
@@ -418,12 +421,14 @@ blockquote cite {
   border-radius: 5px;
   -webkit-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
+  
 }
 
 .grid-portfolio .portfolio__block .portfolio__desc {
   margin: 5px 0;
   padding: 0;
   text-align: center;
+  
   font-style: italic;
 }
 
@@ -435,6 +440,17 @@ blockquote cite {
 .portfolio__desc:hover {
   color: #988c8c;
 }
+
+.portfolio__block1 {
+  width: 350px;
+}
+.portfolio__block2 {
+  width: 200px;
+}
+.portfolio__block3 {
+  width: 200px;
+}
+
 
 /* Портфолио*/
 
@@ -981,16 +997,19 @@ blockquote cite {
 .price1 {
   color: #dabc86;
   font-size: 20px;
+  filter: drop-shadow(0px 4px 4px #fffdfd);
 }
 
 .price2 {
   color: #8ca6af;
   font-size: 20px;
+  filter: drop-shadow(0px 4px 4px #fffdfd);
 }
 
 .price3 {
   color: #d7ab8b;
   font-size: 20px;
+  filter: drop-shadow(0px 4px 4px #fffdfd);
 }
 
 .ancatomy .cute-bit.grow-left h2 {
@@ -1248,15 +1267,15 @@ blockquote cite {
   }
   .price1 {
     font-size: 20px;
-    filter: drop-shadow(0px 4px 4px #FFFDFD);
+    
   }
   .price2 {
     font-size: 20px;
-    filter: drop-shadow(0px 4px 4px #FFFDFD);
+    
   }
   .price3 {
     font-size: 20px;
-    filter: drop-shadow(0px 4px 4px #FFFDFD);
+    
   }
 }
 
@@ -1282,10 +1301,10 @@ blockquote cite {
     right: 30%;
     top: 70%;
     width: 400px;
-}
-.price__content:hover .cute-bit {
-  opacity: 0.1;
-}
+  }
+  .price__content:hover .cute-bit {
+    opacity: 0.1;
+  }
 }
 
 @media (max-width: 858px) {
@@ -1296,8 +1315,8 @@ blockquote cite {
   }
   .ancatomy {
     max-width: 650px;
-    padding: 20px 0 20px 0 ;
-}
+    padding: 20px 0 20px 0;
+  }
 }
 
 @media (max-width: 780px) {
@@ -1307,15 +1326,62 @@ blockquote cite {
   }
   .carousel-desc {
     font-size: 14px;
-    
-}
+  }
 }
 
 @media (max-width: 656px) {
   .ancatomy {
     max-width: 600px;
   }
+  .logo__quote {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .tours__tour {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 15px;
+  }
+  .grid-portfolio {
+    grid-template-columns: repeat(1, 1fr);
+    width: 60%;
+    padding-bottom: 10px;
+  }
+  .grid-portfolio .portfolio__block {
+    padding-bottom: 10px;
+  }
 }
 
-@media (max-width: 435px) {
+@media (max-width: 610px) {
+  .ancatomy {
+    max-width: 500px;
+  }
+  .ancatomy .cute-bit.cute-ears {
+    right: 35%;
+    top: 5%;
+  }
+  .ancatomy .cute-bit.cute-eyes {
+    right: 10%;
+    top: 70%;
+  }
+  .ancatomy .cute-bit.cute-paws {
+    left: 38%;
+    bottom: 35%;
+  }
+  .tours__tour {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid-container {
+    columns: 2 200px;
+  }
+  .grid-portfolio {
+    width: 50%;
+  }
+  .carousel-wrapper {
+    height: 500px;
+    width: 460px;
+  }
 }
+
+@media (max-width: 600px) {
+  
+}
+
