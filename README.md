@@ -1,6 +1,6 @@
 # Dream Cars
 
-## I made my first real project which is suitable for all devices. ([https://dream-cars.ru.com/](https://dream-cars.ru.com/))
+## I made my first real project which is suitable for all devices. ([https://anastmedvedeva.ru/](https://anastmedvedeva.ru/))
 
 - [Full version](#FV)
 - [Mobile version](#MV)
@@ -19,10 +19,6 @@
 ### Mobile version <a name="MV"></a>
 
  <p alight="center">
-  <img src="https://github.com/khlebobul/Dream-Cars/blob/main/md%20img/Mobile%20version%201.jpg" width="260"/>
-  <img src="https://github.com/khlebobul/Dream-Cars/blob/main/md%20img/Mobile%20version%202.jpg" width="260"/>
-  <img src="https://github.com/khlebobul/Dream-Cars/blob/main/md%20img/Mobile%20version%203.jpg" width="260"/>
-  <img src="https://github.com/khlebobul/Dream-Cars/blob/main/md%20img/Mobile%20version%204.jpg" width="260"/>
-  <img src="https://github.com/khlebobul/Dream-Cars/blob/main/md%20img/Mobile%20version%205.jpg" width="260"/>
+  <img src="">
  </p>
   
