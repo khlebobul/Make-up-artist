@@ -10,8 +10,8 @@
  <p alight="center">
   <img src="https://github.com/khlebobul/Make-up-artist/blob/main/md%20img/fw2.png?raw=true" width="850"/>
   <img src="https://github.com/khlebobul/Make-up-artist/blob/main/md%20img/fw3.png?raw=true" width="850"/>
-  <img src="" width="850"/>
-  <img src="" width="850"/>
+  <img src="https://github.com/khlebobul/Make-up-artist/blob/main/md%20img/fw4.png?raw=true" width="850"/>
+  <img src="https://github.com/khlebobul/Make-up-artist/blob/main/md%20img/fw5.png?raw=true" width="850"/>
   <img src="https://github.com/khlebobul/Make-up-artist/blob/main/md%20img/fw1.png?raw=true" width="850"/>
  </p>
 
