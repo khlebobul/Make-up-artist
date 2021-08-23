@@ -8,17 +8,17 @@
 ### Full version <a name="FV"></a>
 
  <p alight="center">
-  <img src="https://github.com/khlebobul/Dream-Cars/blob/main/md%20img/Full%20version%201.png" width="850"/>
-  <img src="https://github.com/khlebobul/Dream-Cars/blob/main/md%20img/Full%20version%202.png" width="850"/>
-  <img src="https://github.com/khlebobul/Dream-Cars/blob/main/md%20img/Full%20version%203.png" width="850"/>
-  <img src="https://github.com/khlebobul/Dream-Cars/blob/main/md%20img/Full%20version%204.png" width="850"/>
-  <img src="https://github.com/khlebobul/Dream-Cars/blob/main/md%20img/Full%20version%205.png" width="850"/>
+  <img src="" width="850"/>
+  <img src="" width="850"/>
+  <img src="" width="850"/>
+  <img src="" width="850"/>
+  <img src="" width="850"/>
  </p>
 
 
 ### Mobile version <a name="MV"></a>
 
  <p alight="center">
-  <img src="">
+  <img src="https://github.com/khlebobul/Make-up-artist/blob/main/md%20img/mobile.jpg?raw=true">
  </p>
   
