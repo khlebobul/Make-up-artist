@@ -10,7 +10,8 @@
       name="keywords"
       content="Make-up artist, Мейкап, СПб, красота, макияж, Анастасия Медведева, обучение"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -52,41 +53,45 @@
         </div>
 
         <header>
-          <div class="burger__menu">
-            <button class="header__button nav-btn-js" type="button"></button>
-            <nav class="header__nav nav-js" data-active="false">
-              <ul class="header__menu">
-                <li class="header__menu-item">
-                  <a href="#about1" class="header__menu-item-link">О мастере</a>
-                </li>
+          <div class="menu-button">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
 
-                <li class="header__menu-item">
-                  <a href="#myworks1" class="header__menu-item-link"
-                    >Мои работы</a
-                  >
-                </li>
-                <li class="header__menu-item">
-                  <a href="#study1" class="header__menu-item-link">Обучение</a>
-                </li>
-                <li class="header__menu-item">
-                  <a href="#reviews1" class="header__menu-item-link">Отзывы</a>
-                </li>
-                <li class="header__menu-item">
-                  <a href="#portfolio1" class="header__menu-item-link"
-                    >Портфолио</a
-                  >
-                </li>
+          <div class="menu-overlay">
+            <div class="nav">
+              <nav class="nav__items">
+                <p class="nav__category">Меню</p>
+                <a class="nav__item" href="#about1">О мастере</a>
+                <a class="nav__item" href="#myworks1">Мои работы</a>
+                <a class="nav__item" href="#study1">Обучение</a>
+                <a class="nav__item" href="#reviews1">Отзывы</a>
+                <a class="nav__item" href="#portfolio1">Портфолио</a>
+                <a class="nav__item" href="#prices1">Цены</a>
+                <a class="nav__item" href="#contacts1">Контакты</a>
+              </nav>
 
-                <li class="header__menu-item">
-                  <a href="#prices1" class="header__menu-item-link">Цены</a>
-                </li>
-                <li class="header__menu-item">
-                  <a href="#contacts1" class="header__menu-item-link"
-                    >Контакты</a
-                  >
-                </li>
-              </ul>
-            </nav>
+              <nav class="nav__items">
+                <p class="nav__category">Напишите мне</p>
+                <a
+                  class="nav__item"
+                  href="https://instagram.com/anastmedvedeva?utm_medium=copy_link"
+                  target="_blank"
+                  >@anastmedvedeva</a>
+
+                <a class="nav__item" href="tel:+7(921)9203590" target="_blank"
+                  >+7 (921) 920-35-90</a
+                >
+              </nav>
+            </div>
+
+            <div class="menu-overlay__image">
+              <img
+                src="./img/menu.jpg"
+                alt=""
+              />
+            </div>
           </div>
         </header>
         <section class="logo__quote">
@@ -551,7 +556,7 @@
         </ol>
       </nav>
     </main>
-    <script src="./js/main.js"></script>
-    <script src="./js/revealer.js"></script>
+    <script src="./js/scroll.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
